@@ -1,4 +1,8 @@
+import type { CSSProperties } from "react";
+
 export default function CrabBaeHomepage() {
+  const heroVars = { "--header-h": "88px" } as CSSProperties;
+
   const locations = [
     {
       name: "Crabbae Kenilworth",
@@ -72,23 +76,23 @@ export default function CrabBaeHomepage() {
         </div>
       </header>
 
-<section className="relative isolate overflow-hidden">
+      <section className="relative isolate overflow-hidden pt-[var(--header-h)]" style={heroVars}>
         <div
           className="absolute inset-0 bg-cover"
           style={{ backgroundImage: "url('https://iili.io/qhN7eg1.jpg')", backgroundPosition: 'center top' }}
         />
 
-        <div className="pointer-events-none absolute inset-x-0 top-24 z-20 flex justify-center md:top-28">
+        <div className="pointer-events-none absolute inset-x-0 top-[calc(var(--header-h)+1rem)] z-20 flex justify-center md:top-[calc(var(--header-h)+1.5rem)]">
           <img
             src="https://iili.io/qXX9uyb.md.png"
             alt="Crabbae Logo"
-            className="h-96 w-auto object-contain md:h-\[32rem\]"
+            className="h-56 w-auto object-contain sm:h-64 md:h-80 lg:h-[32rem]"
           />
         </div>
         
         
 
-        <div className="relative mx-auto flex min-h-[92vh] max-w-7xl items-start px-6 pt-[38rem] pb-16 md:pt-96 md:pb-24">
+        <div className="relative mx-auto flex min-h-[92vh] max-w-7xl items-start px-6 pb-16 pt-[calc(var(--header-h)+15rem)] sm:pt-[calc(var(--header-h)+17rem)] md:pb-24 md:pt-[calc(var(--header-h)+19rem)]">
           <div className="w-full max-w-3xl">
             <div className="mb-5 inline-flex rounded-full border border-red-400/30 bg-black/35 px-5 py-2 text-sm font-semibold uppercase tracking-[0.22em] text-red-200 backdrop-blur">
               Seafood • Pasta • Wings
