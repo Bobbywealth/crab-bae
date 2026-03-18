@@ -88,7 +88,7 @@ export default function CrabBaeHomepage() {
         
         
 
-        <div className="relative mx-auto flex min-h-[92vh] max-w-7xl items-start px-6 pt-80 pb-16 md:pt-96 md:pb-24">
+        <div className="relative mx-auto flex min-h-[92vh] max-w-7xl items-start px-6 pt-[38rem] pb-16 md:pt-96 md:pb-24">
           <div className="w-full max-w-3xl">
             <div className="mb-5 inline-flex rounded-full border border-red-400/30 bg-black/35 px-5 py-2 text-sm font-semibold uppercase tracking-[0.22em] text-red-200 backdrop-blur">
               Seafood • Pasta • Wings
