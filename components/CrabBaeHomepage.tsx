@@ -82,7 +82,7 @@ export default function CrabBaeHomepage() {
           <img
             src="https://iili.io/qXX9uyb.md.png"
             alt="Crabbae Logo"
-            className="h-96 w-auto object-contain md:h-\[32rem\]"
+            className="h-56 w-auto object-contain md:h-[32rem] lg:h-[36rem]"
           />
         </div>
         
